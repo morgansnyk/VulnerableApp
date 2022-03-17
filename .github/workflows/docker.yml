@@ -13,8 +13,8 @@ jobs:
         name: Login to DockerHub
         uses: docker/login-action@v1
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: morganls23
+          password: 04d9e542-a0ec-44d6-a42d-248bc7727d36
       -
         name: Checkout new changes
         uses: actions/checkout@v2
